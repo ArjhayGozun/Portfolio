@@ -1,0 +1,51 @@
+/* heading */
+.heading{
+    font-size: 2rem;
+
+}
+
+/* Portfolio */
+.columns{
+    justify-content: center;
+    padding-left: 20px;
+}
+.box{
+    height: 500px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.box h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: wheat;
+}
+.box p{
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.box img{
+    margin-left: 70px;
+    width: 250px;
+}
+
+/* about */
+.about img{
+    padding: 0px 20px;
+    width: 400px;
+    height: 300px;
+}
+.name{
+    padding: 5px;
+}
+.name h2{
+    font-size: 1.7rem;
+}
+.name p{
+    font-size: 1.2rem;
+    color: gray;
+}

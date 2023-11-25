@@ -1,0 +1,127 @@
+/* navbar */
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar ul li{
+    font-size: .8rem;
+}
+.navbar ul li a{
+    padding: 0px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding-top: 60px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('boy5.jpeg') no-repeat center center/cover;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+#home p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .5rem;
+}
+
+/* heading */
+.heading{
+    font-size: 1.3rem;
+
+}
+/* gallery */
+.gallery img{
+    width: 270px;
+    height: 360px;
+}
+/* about */
+.about{
+    flex-direction: column;
+}
+.about h2{
+    text-align: center;
+}
+.about img{
+    width: 200px;
+    height: 150px;
+    padding: 0px 15px;
+}
+.name{
+    margin-left: 40px;
+    justify-content: space-around;
+    padding: 10px;
+    color: gray;
+}
+.name h2{
+    display: inline-flex;
+    font-size: 1.5rem;
+    color: gray;
+}
+.name p{
+    font-size: 1rem;
+    color: gray;
+}
+/* message box */
+#message{
+    width: 40%;
+    height: 200px;
+}
+#submit{
+    padding: 15px 20px;
+    margin: 30px;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    outline: none;
+}
+#submit:hover{
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+/* portfolio */
+.box{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 43px;
+    margin-left: 30px;
+}
+.box h2{
+    color: wheat;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.box p{
+    color: white;
+    font-size: .8rem;
+    padding-top: 20px;
+}
+.box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 150px;
+}
