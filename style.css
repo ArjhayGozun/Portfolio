@@ -228,4 +228,21 @@
        justify-content: center;
        padding: 1rem;
    }
+body{
+    max-width:1200px;
+    line-height:1;
+    font-size:100%;
+    margin:2% auto;
+    background:#ffffff;
+}
+
+#wrapper{
+    width:97%;
+    margin:0 auto;
+}
+@media screen and (max-width:330px){
+    #wrapper{
+        width:auto;
+    }
+}
 
